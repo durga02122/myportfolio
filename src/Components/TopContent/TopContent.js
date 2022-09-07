@@ -1,18 +1,18 @@
-import  React from 'react'
-import { Link } from 'react-scroll'
+import  React from "react";
+import { Link } from "react-scroll";
 import "./TopContent.css";
 
 const TopContent =() => {
   return (
-    <div className='topcontent'>
-        <div className='topcontent_container'>
+    <div className="topcontent">
+        <div className="topcontent_container">
             <h1>Ms.Durga Esakki</h1>
             <p>A Professional web and App Developer</p>
             <a href="www.google.com">
-                <button>Downlode CV</button>
+                <button className="topContent_downloadButton">Downlode CV</button>
             </a>
             <Link to ="Project" smooth={true} duration={500}>
-            <button>My Work</button>
+            <button className="topContent_workButton">My Work</button>
             </Link>
         </div>
       

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {Link} from "react-scroll"
 import "./Header.css"
 
@@ -39,7 +39,7 @@ const Header = () => {
          
         </div>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

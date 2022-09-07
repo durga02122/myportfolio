@@ -1,3 +1,8 @@
-.topcontainer{
-    background-image: url("../TopContainer/image/images.jpg");
+.topContainer{
+    background: url("../TopContent/img/1.jpg") no-repeat 0 0 !important;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
 }
