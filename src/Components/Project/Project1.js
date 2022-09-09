@@ -5,12 +5,12 @@ const Project1 = ({img,title,desc,link}) => {
   const [show,setShow] = useState(false);
      return (
        <a href={link}>
-        <div className="project"
+        <div className="Project"
           onMouseEnter={()=>setShow(true)}
           onMouseLeave={()=>setShow(false)}
  >
          {show ? (
-         <div className="project__content">
+         <div className="Project__content">
          <h4>{title}</h4>
          <p>{desc}</p>
          </div>

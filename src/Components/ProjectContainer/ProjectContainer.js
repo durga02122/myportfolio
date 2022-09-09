@@ -1,7 +1,7 @@
-import React from 'react'
-import {Element} from 'react-scroll'
-import Project1 from '../Project/Project1'
-import "./ProjectContainer.css"
+import React from "react";
+import {Element} from "react-scroll";
+import Project1 from "../Project/Project1";
+import "./ProjectContainer.css";
 
 const Projectcontainer = () => {
  const projects = [
@@ -49,11 +49,11 @@ const Projectcontainer = () => {
  ]
  return (
 
-    <Element className= "projectcontainer"id="projects">
+    <Element className= "Projectcontainer"id="Projects">
     <h1>Projects</h1>
     <p>Here are some project which I done for making lives of people easy.</p>
 
-    <div className="projectcontainer__projects">
+    <div className="Projectcontainer__Projects">
  {
     projects.map((project,index)=>{
       return (
@@ -68,7 +68,6 @@ const Projectcontainer = () => {
  }
 </div>
  </Element>
- )
-}
-
-export default Projectcontainer
+ );
+};
+export default Projectcontainer;

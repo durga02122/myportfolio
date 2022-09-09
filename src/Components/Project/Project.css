@@ -1,14 +1,14 @@
-.project > img {
+.Project > img {
     width: 350px;
     height: 179px;
 }
-.project{
+.Project{
     margin: 15px;
     width: 350px;
     height: 179px;
     transition: transform 100ms ease-in;
 }
-.project:hover{
+.Project:hover{
     color: white;
     background-color: #f64c08;
     transform: scale(1.05);
@@ -17,13 +17,13 @@
     align-items: center;
     cursor: pointer;
 }
-.project_content{
+.Project_content{
     padding: 10px;
 }
-.project_content > h4{
+.Project_content > h4{
     padding-bottom: 5px;
 }
-.project_content >p {
+.Project_content >p {
     font-size: 15px;
 }
 

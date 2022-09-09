@@ -4,6 +4,8 @@ import ProjectContainer from "./Components/ProjectContainer/ProjectContainer";
 import SkillContainer from "./Components/SkillContainer/SkillContainer";
 import TopContainer from "./Components/TopContainer/TopContainer"
 import "./App.css"
+import ExperienceContainer from "./Components/ExperienceContainer/ExperienceContainer";
+import Contact from "./Components/Contact/Contact";
 const App = () => {
   return (
     <div >
@@ -12,6 +14,8 @@ const App = () => {
       
       <SkillContainer />
       <ProjectContainer />
+      <ExperienceContainer />
+      <Contact />
     </div>
   );
 };
